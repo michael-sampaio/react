@@ -1,19 +1,120 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "produtos": [{
+            "id": 1,
+            "nome": "Guitarra",
+            "valor": "699.99"
+        },
+        {
+            "id": 2,
+            "nome": "Baixo",
+            "valor": "549.99"
+        },
+        {
+            "id": 3,
+            "nome": "Violão",
+            "valor": "249.99"
+        },
+        {
+            "id": 4,
+            "nome": "Bateria Completa",
+            "valor": "2549.99"
+        },
+        {
+            "id": 5,
+            "nome": "Bateria Simples",
+            "valor": "799.99"
+        },
+        {
+            "id": 6,
+            "nome": "Violino",
+            "valor": "259.99"
+        }
+    ],
+    "pedidos": [{
+            "cliente": {
+                "id": 1
+            },
+            "id": 1
+        },
+        {
+            "cliente": {
+                "id": 1
+            },
+            "id": 2
+        }
+    ],
+    "pedidosItem": [{
+            "produto": {
+                "id": 1
+            },
+            "quantidade": 1,
+            "id": 1
+        },
+        {
+            "pedido": {
+                "id": 1
+            },
+            "produto": {
+                "id": "1"
+            },
+            "quantidade": 1,
+            "id": 2
+        },
+        {
+            "pedido": {
+                "id": 1
+            },
+            "produto": {
+                "id": "1"
+            },
+            "quantidade": 1,
+            "id": 3
+        },
+        {
+            "pedido": {
+                "id": 1
+            },
+            "produto": {
+                "id": "2"
+            },
+            "quantidade": 1,
+            "id": 4
+        },
+        {
+            "pedido": {
+                "id": 1
+            },
+            "produto": {
+                "id": 1
+            },
+            "quantidade": 1,
+            "id": 5
+        },
+        {
+            "pedido": {
+                "id": 1
+            },
+            "produto": {
+                "id": "1"
+            },
+            "quantidade": 1,
+            "id": 6
+        },
+        {
+            "quantidade": "5",
+            "pedido": {
+                "id": 5
+            },
+            "produto": {},
+            "id": 7
+        },
+        {
+            "quantidade": "5",
+            "pedido": {
+                "id": 5
+            },
+            "produto": {},
+            "id": 8
+        }
+    ]
 }
