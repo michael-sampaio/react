@@ -70,7 +70,7 @@ export default (props) => {
             <Container>
                 <Row>
                     <Col >
-                        <h3>{console.log(produto) + produto.nome}</h3>
+                        <h3>{produto.nome}</h3>
                     </Col>
                     <Col>
                         <h3>{"R$ " + produto.valor}</h3>
